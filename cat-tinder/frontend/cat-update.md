@@ -133,7 +133,7 @@ How we arrive at the edit page is important, since we need to have the id of our
 **src/pages/CatShow.js**
 ```javascript
 <NavLink
-  to={`/catedit/${this.props.cat.id}`}
+  href={`/catedit/${this.props.cat.id}`}
 >
   <Button color="secondary">
     Edit Cat Profile
